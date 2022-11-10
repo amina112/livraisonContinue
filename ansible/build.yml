@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: Ubuntu 
   gather_facts: false
   become: false
   roles:
