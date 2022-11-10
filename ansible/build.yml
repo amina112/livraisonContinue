@@ -1,7 +1,8 @@
 ---
 - hosts: localhost
   gather_facts: true
-  remote_user: username
+  hosts: remote_host
+  remote_user: ubuntu
   become: true
   roles:
     - { role: build }
