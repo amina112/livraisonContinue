@@ -1,7 +1,6 @@
 ---
-- hosts: localhost
+-  hosts: remote_host
   gather_facts: true
-  hosts: remote_host
   remote_user: ubuntu
   become: true
   roles:
